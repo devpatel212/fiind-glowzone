@@ -11,13 +11,24 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_liquid_x9zbQz": {
+      "type": "custom-liquid",
+      "name": "Custom Footer",
+      "settings": {
+        "custom_liquid": "<footer class=\"custom-footer\">\n  <style>\n    @import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');\n\n    .custom-footer {\n      background-color: #f6f5f2;\n      color: #1a1a1a;\n      font-family: 'Cardo', serif;\n      font-size: 1.2rem;\n      box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);\n    }\n\n    .custom-footer .footer-container {\n      display: flex;\n      justify-content: space-between;\n      padding: 3rem 4rem;\n      flex-wrap: wrap;\n      max-width: 1200px;\n      margin: 0 auto;\n      gap: 2.5rem;\n    }\n\n    .footer-left,\n    .footer-right {\n      flex: 1 1 45%;\n    }\n\n    .footer-heading {\n      font-size: 3rem;\n      font-weight: 400;\n      margin-bottom: 1rem;\n      color: #111;\n    }\n\n    .footer-subtitle {\n      font-size: 1.8rem;\n      margin-bottom: 1.5rem;\n      color: #444;\n    }\n\n    .custom-footer p,\n    .custom-footer a,\n    .custom-footer li,\n    .custom-footer strong {\n      font-size: 1.4rem;\n      line-height: 1.8;\n    }\n\n    .footer-left p {\n      margin: 0.4rem 0;\n      color: #333;\n    }\n\n    .footer-left strong {\n      font-weight: bold;\n      color: #000;\n    }\n\n    .footer-subheading {\n      font-size: 1.6rem;\n      font-weight: bold;\n      margin-top: 2rem;\n      margin-bottom: 1rem;\n      color: #222;\n    }\n\n    .footer-cert {\n      margin-top: 2rem;\n      \n    }\n\n    .footer-cert p {\n      margin: 0.4rem 0;\n    }\n\n    .footer-cert strong {\n      color: #1e334f;\n    }\n\n    .custom-footer a {\n      color: #1a1a1a;\n      text-decoration: underline;\n      transition: color 0.3s ease;\n    }\n\n    .custom-footer a:hover {\n      color: #1e334f;\n    }\n\n    .footer-bottom {\n      text-align: center;\n      padding: 1.5rem 1rem 2.5rem;\n      background-color: #fff;\n      font-size: 1rem;\n      color: #666;\n      font-family: 'Cardo', serif;\n      border-top: 1px solid #ddd;\n    }\n\n    .footer-social {\n      margin-top: 1rem;\n    }\n\n    .footer-social a {\n      margin: 0 1rem;\n      color: #1a1a1a;\n      font-size: 1.8rem;\n      display: inline-block;\n      transition: transform 0.3s ease, color 0.3s ease;\n    }\n\n    .footer-social a:hover {\n      color: #1e334f;\n      transform: scale(1.15);\n    }\n\n    @media (max-width: 768px) {\n      .custom-footer .footer-container {\n        flex-direction: column;\n        padding: 2rem 1.5rem;\n        gap: 2rem;\n      }\n\n      .footer-left,\n      .footer-right {\n        width: 100%;\n      }\n\n      .footer-heading {\n        font-size: 2.4rem;\n      }\n\n      .footer-subtitle {\n        font-size: 1.5rem;\n      }\n    }\n  </style>\n\n  <div class=\"footer-container\">\n    <!-- Left Column -->\n    <div class=\"footer-left\">\n      <h2 class=\"footer-heading\">KONTAKT OS</h2>\n      <p class=\"footer-subtitle\">OM BOOKING ELLER SPØRGSMÅL</p>\n      <p><strong>Telefon:</strong> 42 41 47 10</p>\n      <p><strong>Mail:</strong> <a href=\"mailto:info@glowzoneclinic.dk\">info@glowzoneclinic.dk</a></p>\n\n      <h3 class=\"footer-subheading\">ADRESSE</h3>\n      <p>Glowzone Clinic</p>\n      <p>Godthåbsvej 17</p>\n      <p>2000 Frederiksberg</p>\n    </div>\n\n    <!-- Right Column -->\n    <div class=\"footer-right\">\n      <div class=\"footer-cert\">\n        <p>VI ER <strong>REGISTRERET</strong></p>\n        <p><strong>HOS STYRELSEN</strong></p>\n        <p><strong>FOR PATIENTSIKKERHED</strong></p>\n        <p><a href=\"#\">Tilsynsrapport</a></p>\n      </div>\n    </div>\n  </div>\n\n  <!-- Bottom Section -->\n  <div class=\"footer-bottom\">\n    <p>©2025 Glowzone Clinic – Alle rettigheder forbeholdes</p>\n    <div class=\"footer-social\">\n      <a href=\"https://www.tiktok.com/@glowzoneclinic\" target=\"_blank\"><i class=\"fab fa-tiktok\"></i></a>\n      <a href=\"https://www.instagram.com/glowzoneclinic/\" target=\"_blank\"><i class=\"fab fa-instagram\"></i></a>\n      <a href=\"https://www.facebook.com/TheGlowzonecph\" target=\"_blank\"><i class=\"fab fa-facebook-f\"></i></a>\n    </div>\n  </div>\n\n  <!-- Font Awesome CDN -->\n  <link\n    rel=\"stylesheet\"\n    href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css\"\n  />\n</footer>",
+        "color_scheme": "scheme-2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "footer": {
       "type": "footer",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": true,
+        "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": true,
         "enable_language_selector": true,
@@ -30,6 +41,7 @@
     }
   },
   "order": [
+    "custom_liquid_x9zbQz",
     "footer"
   ]
 }

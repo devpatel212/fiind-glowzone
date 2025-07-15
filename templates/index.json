@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "Hos os er din tryghed,glæde og resultater i centrum",
             "heading_size": "h0"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "View all",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -36,49 +36,243 @@
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/5659031copy.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
         "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
+        "show_text_box": false,
         "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
         "show_text_below": false
       }
     },
     "featured_collection": {
       "type": "featured-collection",
+      "custom_css": [
+        ".collection__view-all {margin-top: 2rem;}",
+        ".button {background-color: white; color: black;}",
+        ".collection {justify-content: space-evenly;}"
+      ],
       "settings": {
+        "collection": "all",
+        "products_to_show": 4,
         "title": "Featured products",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
+        "show_vendor": true,
+        "show_rating": true,
+        "quick_add": "standard",
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_nYc3K6": {
+      "type": "collage",
+      "blocks": {
+        "image_YFPrDg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/front-view-woman-applying-face-cream.jpg"
+          }
+        },
+        "product_CKdqgY": {
+          "type": "product",
+          "settings": {
+            "product": "dry-brittle-hair-conditioner",
+            "second_image": false
+          }
+        },
+        "collection_4YLyKL": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        }
+      },
+      "block_order": [
+        "image_YFPrDg",
+        "product_CKdqgY",
+        "collection_4YLyKL"
+      ],
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "Exclusive Products",
+        "heading_size": "h0",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "scheme-2",
         "padding_top": 44,
+        "padding_bottom": 60
+      }
+    },
+    "collapsible_content_GnXfJV": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_jTfUgV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Glow Naturally, Shine Eternally",
+            "icon": "lightning_bolt",
+            "row_content": "<p><br/>Discover our curated collection of skincare essentials made with nature’s finest ingredients. From deeply hydrating moisturizers to gentle exfoliants, each product is designed to nourish your skin and reveal a healthy, radiant glow.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7fq4GK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Skincare That Works While You Rest",
+            "icon": "lightning_bolt",
+            "row_content": "<p><br/>Powered by cutting-edge dermatology and luxurious ingredients, our skincare line rejuvenates your skin from within. Experience visibly smoother, brighter, and healthier skin—day after day.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_hqFAqB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Glow Beyond Beauty",
+            "icon": "lightning_bolt",
+            "row_content": "<p>Our skincare isn’t just about looking good — it’s about feeling confident in your own skin. Explore powerful, gentle formulations designed to hydrate, protect, and nourish — no matter your skin type.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LpCyxE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Skincare, Refined",
+            "icon": "lightning_bolt",
+            "row_content": "<p><br/>Elevate your daily routine with luxurious, dermatologist-approved formulas that deliver real results. Clean, effective, and made for modern skin — because you deserve skincare that works as hard as you do.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cHi7Tf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Radiant Skin Starts Here",
+            "icon": "lightning_bolt",
+            "row_content": "<p>Discover our curated collection of skincare essentials crafted with natural ingredients and science-backed formulas. From cleansers to serums, everything you need for healthy, glowing skin — all in one place.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YgQUWD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Beauty Rooted in Self-Care",
+            "icon": "lightning_bolt",
+            "row_content": "<p>More than just skincare — it’s a ritual. Our thoughtfully crafted products soothe, restore, and rejuvenate, helping you reconnect with yourself one gentle step at a time.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_jTfUgV",
+        "collapsible_row_7fq4GK",
+        "collapsible_row_hqFAqB",
+        "collapsible_row_LpCyxE",
+        "collapsible_row_cHi7Tf",
+        "collapsible_row_YgQUWD"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "Know More",
+        "heading": "Know  about our product",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "image": "shopify://shop_images/woman-getting-hair-cut-at-salon.jpg",
+        "image_ratio": "small",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_XWFYLG": {
+      "type": "multirow",
+      "blocks": {
+        "row_fXWEEq": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/collage2.jpg",
+            "caption": "Pure Botanicals, Perfect Hair",
+            "heading": "Nature's Finest in Every Bottle and Jar.",
+            "text": "<p>Our botanical shampoo gently cleanses while restoring your scalp’s natural balance. Made with organic extracts, it's free from sulfates and parabens—leaving your hair soft, shiny, and full of life after every wash.<br/><br/></p>",
+            "button_label": "See more",
+            "button_link": "shopify://collections/all"
+          }
+        },
+        "row_wNMbX6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/collage3.jpg",
+            "caption": "CaptionSalon Results at Home",
+            "heading": "Crafted for strength, shine, and style",
+            "text": "<p>This premium shampoo is enriched with keratin and silk proteins to repair damage, reduce frizz, and enhance shine. Experience a luxurious lather and weightless volume—just like a fresh salon blowout, every time.<br/><br/></p>",
+            "button_label": "See more",
+            "button_link": "shopify://collections/all"
+          }
+        },
+        "row_3Ez4Hi": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/collage1.jpg",
+            "caption": "Clean Scalp. Strong Roots. Healthier Hair.",
+            "heading": "Thoroughly tested for visible impact",
+            "text": "<p>Formulated by hair experts, our science-backed shampoo targets scalp buildup, thinning hair, and breakage at the root. With regular use, you’ll notice stronger strands, improved density, and a refreshed scalp.<br/><br/></p>",
+            "button_label": "Know more",
+            "button_link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "row_fXWEEq",
+        "row_wNMbX6",
+        "row_3Ez4Hi"
+      ],
+      "custom_css": [
+        ".image-with-text__grid {margin-top: 2rem;}"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "collage_nYc3K6",
+    "collapsible_content_GnXfJV",
+    "multirow_XWFYLG"
   ]
 }
