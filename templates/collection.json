@@ -19,6 +19,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [],
       "settings": {
         "products_per_page": 20,
         "columns_desktop": 4,
@@ -29,10 +30,10 @@
         "show_secondary_image": true,
         "show_vendor": true,
         "show_rating": false,
-        "quick_add": "standard",
+        "quick_add": "none",
         "enable_filtering": true,
-        "filter_type": "vertical",
-        "enable_sorting": true,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
         "padding_top": 0,
         "padding_bottom": 0
       }

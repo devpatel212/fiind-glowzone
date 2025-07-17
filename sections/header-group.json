@@ -16,7 +16,10 @@
       "custom_css": [
         ".predictive-search {background-color: #ffffff !important; color: black; border: 1px solid #e5e7eb; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);}",
         ".predictive-search * {color: black !important;}",
-        ".predictive-search__item:hover {background-color: #f5f5f5; color: black;}"
+        ".predictive-search__item:hover {background-color: #f5f5f5; color: black;}",
+        ".header-wrapper {margin-bottom: 0rem;}",
+        ".menu-drawer__account:hover,.menu-drawer__account:focus {color: #f0f0f0;}",
+        ".menu-drawer__account:focus:not(:focus-visible) {outline: none;}"
       ],
       "settings": {
         "logo_position": "middle-center",
@@ -24,9 +27,9 @@
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
-        "show_line_separator": true,
+        "show_line_separator": false,
         "color_scheme": "scheme-b82af91d-b55a-4a33-9d38-3744eb34245c",
-        "menu_color_scheme": "scheme-3",
+        "menu_color_scheme": "scheme-1",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "enable_customer_avatar": true,
